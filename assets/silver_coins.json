@@ -1,0 +1,46 @@
+[
+    {
+        "name": "American Morgan Dollar",
+        "circulation_or_bullion": "circulation",
+        "Ag": 0.90,
+        "weight_g": 26.73,
+        "weight_toz": 0.85944,
+        "ASW_toz": 0.77344,
+        "number": 2,
+        "production_run": "1878-1904, 1921",
+        "description" : "The Morgan Dollar is a United States dollar coin minted from 1878 to 1904, and again in 1921. It was named after its designer, George T. Morgan. The coin features a profile portrait of Liberty on the obverse and an eagle with outstretched wings on the reverse. The Morgan Dollar is composed of 90% silver and 10% copper, with a total weight of 26.73 grams."
+    },
+    {
+        "name": "Canadian Silver Maple Leaf",
+        "circulation_or_bullion": "bullion",
+        "Ag": 1.00,
+        "weight_g": 31.1035,
+        "weight_toz": 1.00000,
+        "ASW_toz": 0.99990,
+        "number": 3,
+        "production_run": "1988-present",
+        "description" : "The Canadian Silver Maple Leaf is a silver bullion coin issued by the Royal Canadian Mint. It was first introduced in 1988 and is made of 99.99% pure silver. The coin features an image of Queen Elizabeth II on the obverse and a maple leaf on the reverse. The Silver Maple Leaf is known for its high purity and is popular among investors and collectors."
+    },
+    {
+        "name": "Swiss 1 Franc (1967 or earlier)",
+        "circulation_or_bullion": "circulation",
+        "Ag": 0.835,
+        "weight_g": 5.00,
+        "weight_toz": 0.16075,
+        "ASW_toz": 0.13412,
+        "number": 2,
+        "production_run": "1875-1967",
+        "description" : "The Swiss 1 Franc coin is a silver coin that was minted in Switzerland from 1875 to 1967. It contains 83.5% silver and has a total weight of 5 grams. The obverse of the coin features the Swiss coat of arms, while the reverse displays the denomination and the year of minting. The coin was widely used in Switzerland and is now considered a collectible item."
+    },
+    {
+        "name": "Canadian 50 Cent (1920-1967)",
+        "circulation_or_bullion": "circulation",
+        "Ag": 0.800,
+        "weight_g": 11.66,
+        "weight_toz": 0.3749,
+        "ASW_toz": 0.29991,
+        "number": 2,
+        "production_run": "1920-1967",
+        "description" : "The Canadian 50 Cent coin is a silver coin that was minted in Canada from 1920 to 1967. It contains 80% silver and has a total weight of 11.66 grams. The obverse of the coin features the Canadian coat of arms, while the reverse displays the denomination and the year of minting. The coin was widely used in Canada and is now considered a collectible item."
+    }
+]
