@@ -1,0 +1,98 @@
+:root { 
+
+/* :root is a psuedo-class that hits the document's root element. 
+So basically the tippy top / core of the whole document. 
+Equivalent to html{} in this case. */
+
+    font-family: 'Inter', system-ui, sans-serif;
+    color: white;
+	background: #141414;
+	--cream: #F4F3EE;
+    --muteRed: #AF3E2C;
+    --muteCyan: #2C7FAF;
+    --text: white;
+    --muteWarmGrey: #262020;
+    --muteCream: #c7c8d1;
+    --muteCoolGrey: #242528;
+    --background: #141414;
+}
+
+h1 {
+    font-family: "Zalando Sans Expanded", sans-serif;
+    font-size: 3rem;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+.label {
+    font-family: "Zalando Sans Expanded", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    /*text-align: center;
+    width: 100%;*/
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.sublabel{
+    font-style: bold;
+    margin-bottom: 0.5rem;
+
+}
+
+#update{
+    display: flex;
+    flex-direction: column; /*mobile default: stacked on top of each other*/
+    background-color: var(--muteWarmGrey);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--cream);
+
+}
+/*.value{
+    display: inline-block;
+}*/
+
+.coin{
+    display: flex;
+    flex-direction: column; /*mobile default: stacked on top of each other*/
+    /*align-items: center;*/
+    background-color: var(--muteCoolGrey);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+
+.coin_info,
+.desc_div {
+  flex: 1; /* take up equal space as the other flex item */
+}
+
+.coin_info b{
+    /* I already got <b> tags in my html so might as well dawg */   
+    font-weight: 650;
+}
+
+@media (min-width: 700px) {
+  .coin {
+    flex-direction: row; /* larger screens: side by side */
+    align-items: flex-start;
+  }
+}
+
+.desc_div{
+    /* margin: 1rem; */
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--background);
+    border: 1px solid var(--cream);
+}
+
+.desc_div p{
+    /*margin: 0.5rem 0;*/
+    color: var(--muteCream);
+}
