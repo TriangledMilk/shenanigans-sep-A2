@@ -13,21 +13,9 @@ AgPriceCheck();
 
 async function AgPriceCheck() {
 
-    const url = 'https://metal-sentinel.p.rapidapi.com/silver-price?currency=CAD';
-	  const options = {
-		method: 'GET',
-		headers: {
-			'x-rapidapi-key': `308300f395msh04005abe1a14d9ap125e2ajsn760536161c1f`, 
-      //i'm pretty sure I'm supposed to put my API key... somewhere... 
-            //I used to have my api key just right there lol
-            //not the safest tool in the shed im afraid
-            
-			'x-rapidapi-host': 'metal-sentinel.p.rapidapi.com',
-		    'Content-Type': 'application/json'
-        }
-    };// end of options object
+  const url = '/api/silver-price';
     try {
-    const response = await fetch(url, options);
+  const response = await fetch(url);
     const result = await response.json();
 
     if (!response.ok) {
